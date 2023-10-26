@@ -7,7 +7,6 @@ export default function Footer() {
       style={{
         display: "flex",
         justifyContent: "space-between",
-        margin: "0 15% 0 15%",
       }}
     >
       <img src={logo} alt="little lemon logo" />
