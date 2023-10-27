@@ -3,7 +3,7 @@ import food from "../assets/restauranfood.jpg";
 
 export default function HeroSection() {
   return (
-    <section style={{ backgroundColor: "#495E57" }}>
+    <section style={{ backgroundColor: "#495E57", minWidth:'320px' }}>
       <div style={{ display: "flex", margin: "0 15% 0 15%", justifyContent:'space-between' }}>
         <article
           style={{
@@ -55,6 +55,7 @@ export default function HeroSection() {
           alt=""
           style={{
             width: "30%",
+            // minWidth:'200px',
             borderRadius: "30px",
             position: "relative",
             top: "50px",

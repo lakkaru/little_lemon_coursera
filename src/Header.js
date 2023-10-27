@@ -1,18 +1,18 @@
 import React from "react";
 import Logo from "./assets/Logo.svg";
 import Nav from "./header/Nav";
+import Mob_nav from "./header/Mob_nav";
 
 export default function Header() {
   return (
-    <header
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        margin:"0 15% 0 15%"
-      }}
-    >
-      <img src={Logo} alt="Little lemon logo" />
-      <Nav />
+    <header>
+      <div className="navbar">
+        <img src={Logo} alt="Little lemon logo" />
+        <Nav />
+      </div>
+      <div className="mobile_navbar">
+      <Mob_nav/>
+      </div>
     </header>
   );
 }

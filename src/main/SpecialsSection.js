@@ -13,20 +13,20 @@ export default function SpecialsSection() {
       description:
         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly",
     },
-    {
-      imgSrc: Burchetta,
-      name: "Burchetta",
-      price: "18.00",
-      description:
-        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly",
-    },
-    {
-      imgSrc: Lemon_Desert,
-      name: "Lemon Desert",
-      price: "13.00",
-      description:
-        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly",
-    },
+    // {
+    //   imgSrc: Burchetta,
+    //   name: "Burchetta",
+    //   price: "18.00",
+    //   description:
+    //     "In publishing and graphic design, Lorem ipsum is a placeholder text commonly",
+    // },
+    // {
+    //   imgSrc: Lemon_Desert,
+    //   name: "Lemon Desert",
+    //   price: "13.00",
+    //   description:
+    //     "In publishing and graphic design, Lorem ipsum is a placeholder text commonly",
+    // },
   ];
   return (
     <section style={{ margin: "10% 15% 0 15%" }}>
