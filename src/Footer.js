@@ -1,24 +1,31 @@
 import React from "react";
-import logo from "./assets/Logo.svg";
+import Footer_logo from "./assets/footer_logo.png";
 
 export default function Footer() {
   return (
     <footer
       style={{
-        display: "flex",
-        justifyContent: "space-between",
+        backgroundColor: "#A9A9A9",
       }}
     >
-      <img src={logo} alt="little lemon logo" />
-      <div>
-        <div style={{ display: "flex", gap: "150px" }}>
-          <p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          margin: "10% 15% 0% 15%",
+          padding: "5% 0",
+        }}
+      >
+        <img
+          src={Footer_logo}
+          alt="little lemon logo"
+          style={{ width: "75px" }}
+        />
+
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <h4 style={{marginBottom:'.5rem'}}>
             Doormat <br></br> Navigation
-          </p>
-          <p>Contact</p>
-          <p>Social Media Links</p>
-        </div>
-        <div style={{display:'flex',display: "flex", gap: "120px" }}>
+          </h4>
           <nav
             style={{
               display: "flex",
@@ -49,17 +56,21 @@ export default function Footer() {
               Login
             </a>
           </nav>
+        </div>
+        
           <div>
+            <h4 style={{marginBottom:'2rem'}}>Contact</h4>
             <p>Address</p>
             <p>Phone number</p>
             <p> Email</p>
           </div>
           <div>
+            <h4 style={{marginBottom:'2rem'}}>Social Media Links</h4>
             <p>Facebook</p>
             <p>WhatsApp</p>
             <p>Instagram</p>
           </div>
-        </div>
+        
       </div>
     </footer>
   );
