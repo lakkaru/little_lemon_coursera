@@ -1,5 +1,5 @@
 import React from "react";
-import food from "../assets/restauranfood.jpg";
+import food from "../../assets/restauranfood.jpg";
 
 export default function HeroSection() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import Rogger from "../assets/Rogger.png";
-import Peat from "../assets/Peat.png";
-import Alice from "../assets/Alice.png";
-import Teena from "../assets/Teena.png";
-import Star from "../assets/star.png";
+import Rogger from "../../assets/Rogger.png";
+import Peat from "../../assets/Peat.png";
+import Alice from "../../assets/Alice.png";
+import Teena from "../../assets/Teena.png";
+import Star from "../../assets/star.png";
 
 export default function Testimonials() {
   const testimonials = [

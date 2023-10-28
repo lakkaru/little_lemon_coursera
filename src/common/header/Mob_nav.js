@@ -1,7 +1,7 @@
 import React from "react";
-import Hamburger from "../assets/hamburger menu.svg";
-import logo from "../assets/Logo.svg";
-import basket from "../assets/Basket.svg";
+import Hamburger from "../../assets/hamburger menu.svg";
+import logo from "../../assets/Logo.svg";
+import basket from "../../assets/Basket.svg";
 
 export default function Mob_nav() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./assets/Logo.svg";
+import Logo from "../assets/Logo.svg";
 import Nav from "./header/Nav";
 import Mob_nav from "./header/Mob_nav";
 
@@ -11,7 +11,7 @@ export default function Header() {
         <Nav />
       </div>
       <div className="mobile_navbar">
-      <Mob_nav/>
+        <Mob_nav />
       </div>
     </header>
   );

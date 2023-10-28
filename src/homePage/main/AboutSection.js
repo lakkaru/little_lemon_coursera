@@ -1,6 +1,6 @@
 import React from "react";
-import Mario_A from "../assets/Mario and Adrian A.jpg";
-import Mario_B from "../assets/Mario and Adrian b.jpg";
+import Mario_A from "../../assets/Mario and Adrian A.jpg";
+import Mario_B from "../../assets/Mario and Adrian b.jpg";
 
 export default function AboutSection() {
   return (
