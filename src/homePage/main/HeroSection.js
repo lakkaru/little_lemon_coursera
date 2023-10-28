@@ -1,16 +1,23 @@
 import React from "react";
 import food from "../../assets/restauranfood.jpg";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <section style={{ backgroundColor: "#495E57", minWidth:'320px' }}>
-      <div style={{ display: "flex", margin: "0 15% 0 15%", justifyContent:'space-between' }}>
+    <section style={{ backgroundColor: "#495E57", minWidth: "320px" }}>
+      <div
+        style={{
+          display: "flex",
+          margin: "0 15% 0 15%",
+          justifyContent: "space-between",
+        }}
+      >
         <article
           style={{
             width: "50%",
             fontFamily: "Markazi Text",
             // paddingRight: "10%",
-            marginBottom:'5%'
+            marginBottom: "5%",
           }}
         >
           <h1
@@ -36,19 +43,23 @@ export default function HeroSection() {
             the readable content of a page when looking at its layout. The point
             of using...
           </p>
-          <button
-            style={{
-              backgroundColor: "#F4CE14",
-              borderRadius: "16px",
-              padding: "15px",
-              fontWeight: "500",
-              boxShadow: "5px 5px black",
-              fontFamily: "Karla",
-              fontSize: "18pt",
-            }}
-          >
-            Reserve a table
-          </button>
+          
+            <Link
+              to="/reservation"
+              style={{
+                textDecoration: "none",
+                backgroundColor: "#F4CE14",
+                borderRadius: "16px",
+                padding: "15px",
+                fontWeight: "500",
+                boxShadow: "5px 5px black",
+                fontFamily: "Karla",
+                fontSize: "18pt",
+              }}
+            >
+              Reserve a table
+            </Link>
+          
         </article>
         <img
           src={food}

@@ -18,6 +18,15 @@ body {
   /* display: none; */
 }
 
+input, select{
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+}
+label{
+  color: #F4CE14;
+  font-weight: 600;
+}
 @media screen and (max-width: 475px) {
   .navbar {
     display: none;

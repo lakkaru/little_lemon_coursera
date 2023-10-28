@@ -4,7 +4,7 @@ import SpecialsSection from "./main/SpecialsSection";
 import Testimonials from "./main/Testimonials";
 import AboutSection from "./main/AboutSection";
 
-export default function Main() {
+export default function HomeMain() {
   return (
     <main>
       <HeroSection />

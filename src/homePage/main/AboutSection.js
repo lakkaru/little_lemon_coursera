@@ -11,7 +11,9 @@ export default function AboutSection() {
         justifyContent: "space-between",
         alignItems: "center",
         gap: "10%",
+        paddingBottom:'20px'
       }}
+      id="about"
     >
       <div>
         <h2

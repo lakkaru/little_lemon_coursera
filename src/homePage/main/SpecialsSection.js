@@ -29,7 +29,7 @@ export default function SpecialsSection() {
     },
   ];
   return (
-    <section style={{ margin: "10% 15% 0 15%" }}>
+    <section style={{ margin: "10% 15% 0 15%" }} id="special">
       <div
         style={{
           display: "flex",

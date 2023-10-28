@@ -23,7 +23,7 @@ export default function Testimonials() {
     { rating: 4, image: Peat, name: "Peat", review: "Nice place for dinner." },
   ];
   return (
-    <section style={{ margin: '10% 0', backgroundColor: "#A9A9A9", padding: "10%" }}>
+    <section style={{ margin: '5% 0', backgroundColor: "#A9A9A9", padding: "10%" }}>
       <h2 style={{ textAlign: "center", fontSize: "4rem" }}>Testimonials!</h2>
       <div
         style={{

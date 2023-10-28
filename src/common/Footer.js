@@ -12,7 +12,7 @@ export default function Footer() {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          margin: "10% 15% 0% 15%",
+          margin: "0% 15% 0% 15%",
           padding: "5% 0",
         }}
       >
